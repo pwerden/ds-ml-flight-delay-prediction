@@ -131,6 +131,23 @@ def error_analysis(y_test, y_pred_test):
     ax[1].set_ylim((residuals.min()-10), (residuals.max()+10));
 
 
+def feature_combi(columns):
+    """
+    Creates a list with all possible combinations without repetition, i.e. featured f1,f2 is same 
+    as choosing f2,f1
+
+    Args:
+        columns (list of strings): list with column names
+    """
+    col_combis = []
+    for i in range(1, len(columns)):
+        col_combis.extend([list(combi) for combi in itertools.combinations(columns, i)])
+
+    col_combis.append(columns)
+
+    return col_combis
+
+
 #MAIN function
 #
 if(__name__ == '__main__'):
@@ -146,3 +163,7 @@ if(__name__ == '__main__'):
     df_test['outcome'] = df.target.apply(lambda x: outcome(x))
 
     print(df_test.head(6))
+
+    # test feature_combi
+    test_fc = ['a','b','c']
+    print(feature_combi(test_fc))
