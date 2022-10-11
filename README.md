@@ -4,7 +4,7 @@
 
 ## Description
 
-This group project aims to predict the delay of flights from or to the Tunis-Carthage International Airport (TUN) using **regression** models. The data base for this task is from the __zindi__ website which organised the "AI Tunisia Hack 2019" and covers the years 2016 to 2018 with a total of about 100,000 samples in 10 columns (9 features + 1 label).
+This group project aims to predict the delay of aircrafts flying (mostly) from or to the Tunis-Carthage International Airport (TUN) using **regression** models. The data base for this task is from the __zindi__ website which organised the "AI Tunisia Hack 2019" and covers the years 2016 to 2018 with a total of about 100,000 samples in 10 columns (9 features + 1 label).
 
 The data can be found at: 
 
