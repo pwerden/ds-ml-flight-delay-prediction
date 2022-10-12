@@ -1,6 +1,26 @@
+
+![contributors](https://img.shields.io/badge/all_contributors-3-green.svg?style=flat)
+![milestones](https://img.shields.io/github/milestones/all/pwerden/ds-ml-flight-delay-prediction)
+![contributors](https://img.shields.io/badge/python-3.9.8-blue.svg?style=flat)
+![language](https://img.shields.io/github/languages/top/pwerden/ds-ml-flight-delay-prediction)
+![license](https://img.shields.io/github/license/pwerden/ds-ml-flight-delay-prediction)
+![repo-size](https://img.shields.io/github/repo-size/pwerden/ds-ml-flight-delay-prediction)
+![repo-size](https://img.shields.io/github/last-commit/pwerden/ds-ml-flight-delay-prediction)
+
 # ML Project: Flight Delay Prediction Challenge
 
 **Second project at the _neuefische Data Science_ bootcamp 2022.**
+
+---
+
+![](https://media.cntraveler.com/photos/57b1ddf87443947d28477866/master/pass/GettyImages-93466101.jpg­)
+
+---
+
+# ML Project: Flight Delay Prediction Challenge
+
+**Second project at the _neuefische Data Science_ bootcamp 2022.**
+
 
 ## Description
 
